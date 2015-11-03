@@ -1,0 +1,36 @@
+// style guide variables
+
+$headline-text: 3rem; // 300% of of root/body px size
+$body-text: 1rem; //100%
+$nav-item: 1.25rem;
+$sub-header: 1.5rem;
+$byline: .75rem; // figcaption
+
+// margin sizes for headlines
+$headline-margin: 5px;
+
+//font variables
+$sans-serif: 'Oswald', sans-serif;
+$serif:
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: $headline-text;
+    margin: $headline-margin;
+}
+
+p {
+    font-size: $body-text;
+}
+nav li {
+    font-size: $nav-item;
+}
+h2 {
+    font-size: $sub-header;
+}
+figcaption {
+    font-size: $byline;
+}
